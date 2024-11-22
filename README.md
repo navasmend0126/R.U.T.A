@@ -7,11 +7,10 @@ Sin embargo, la movilización de una persona que viaja en transporte público es
 Este desafío nos llevó al desarrollo de <ins>RUTA (Red Urbana de Transporte Actualizado).</ins>
 
 ## ¿Qué es?
-Red Urbana de Transporte Actualizado (RUTA), es un proyecto que trata de un software que va a permitir a los usuarios visualizar en tiempo real el transporte publico especifico que necesitan, tambien va a tener la funcion de calcular las rutas mas optimas y eficientes para llegar a su destino.
+Red Urbana de Transporte Actualizado (RUTA), es un proyecto que trata de un software que va a permitir a los usuarios visualizar en tiempo real el transporte publico especifico que necesitan, de modo que el usuario pueda trazar una ruta en transporte publico y visualizar la posicion de ese transporte en todo momento, de esta forma mejorando su experiencia.
 
 ## Objetivos
   - Permitir a los usuarios ver la ruta del transporte en tiempo real para mejorar la experiencia de usuario y el uso del transporte publico.
-  - Permitir a los usuarios trazar rutas complejas las cuales tengan la maxima eficiencia, contando con funciones como (transbordo, costo de viaje, duracion aproximada, etc.)
   - Proporcionar un programa util que realmente ayude a las personas que usan diariamente el transporte publico, mejorando la experiencia de espera, y navegación
 
 ## Requisitos
