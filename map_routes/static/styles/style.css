@@ -1,0 +1,94 @@
+*{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.nav__container{
+    border: 2px solid blue;
+    height: 10vh;
+}
+
+.list__container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    
+
+}
+
+.list__container li{
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: .2s;
+}
+
+.list__container li:hover{
+    border-bottom: 2px solid red;
+}
+
+.main__container{
+    position: relative;
+    margin: 10px 0;
+    height: 90vh;
+    display: flex;
+}
+
+.description__container{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    overflow: visible;
+    border: 2px solid blue;
+    background-color: grey;
+    z-index: 999;
+}
+
+.description-collapsed{
+    width: 60px;
+    height:60px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    
+}
+
+
+#collapse_description_btn:hover{
+    background-color: lightblue;
+}
+
+.collapse_description{
+    position: absolute;
+
+    border: 2px solid brown;
+    width: 50px;
+    height: 50px;
+    
+    cursor: pointer;
+}
+
+.collapse_mode_btn{
+    left: 100%; /* Position it outside the container */
+}
+
+.map_section__container{
+    position: relative;
+    border: 2px solid green;
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+#map{
+    height: 100%;
+    width: 100%;
+}

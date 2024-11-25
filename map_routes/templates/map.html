@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--{% load static %}-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map with Routing</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <style>
-        #map {
-            height: 600px;
-            width: 100%;
-        }
-    </style>
 </head>
 <body>
+    <header>
+        <nav class="nav__container">
+            <ul class="list__container">
+                <li class="list-element">MAIN</li>
+                <li class="list-element">ABOUT US</li>
+                <li class="list-element">CONTACT</li>
+            </ul>
+        </nav>
+    </header>
 
-    <div id="map"></div>
+    <main class="main__container">
+        <aside id="description_aside_container" class="description__container">
+            <div id="collapse_description_btn" class="collapse_description collapse_mode_btn"></div>
+        </aside>
+        
+        <section class="map_section__container">
+            <div id="map"></div> <!-- Este div se encarga de crear el mapa interactivo -->
+        </section>
+    </main>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
-    {% load static %}
-    <script src="{% static 'app.js' %}"></script>
+    <script src="../static/app.js"></script>
+    <!--<script src="{% static 'app.js' %}"></script> -->
 </body>
 </html>
