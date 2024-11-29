@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map with Routing</title>
     <link rel="stylesheet" href="../static/styles/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');</style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 <body>
@@ -20,9 +21,18 @@
     </header>
 
     <main class="main__container">
-        <aside id="description_aside_container" class="description__container">
-            <div id="collapse_description_btn" class="collapse_description collapse_mode_btn"></div>
+        
+
+        <aside class="aside__container">
+            <div id="description_aside_container" class="description__container">
+                <div class="route_search__container">
+                    <input id="user_input_route_course" placeholder="Ingrese ruta o codigo" class="search_bar"></input>
+                </div>
+                <div class="routes_options__container"></div>
+            </div>
+            <div id="collapse_description_btn" class="collapse_description"></div>
         </aside>
+        
         
         <section class="map_section__container">
             <div id="map"></div> <!-- Este div se encarga de crear el mapa interactivo -->
