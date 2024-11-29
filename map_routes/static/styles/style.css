@@ -1,4 +1,7 @@
 *{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 15px;
     margin: 0;
     padding: 0;
@@ -10,8 +13,8 @@ body{
 }
 
 .nav__container{
-    border: 2px solid blue;
     height: 10vh;
+    background-color: #3c3c3c;
 }
 
 .list__container{
@@ -28,36 +31,46 @@ body{
     cursor: pointer;
     border-bottom: 2px solid transparent;
     transition: .2s;
+    color: #ffffff;
 }
 
 .list__container li:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #ff8c07;
 }
 
 .main__container{
-    position: relative;
-    margin: 10px 0;
+   
     height: 90vh;
     display: flex;
 }
 
-.description__container{
+.aside__container{
     position: absolute;
-    top: 0;
+    height: 85%;
+    max-width: 20rem;
+    display: flex;
+    bottom: 15px;
+    left: 15px;
+}
+
+.description__container{
+    position: relative;
+    width: 20rem;
     height: 100%;
-    width: 25%;
-    overflow: visible;
-    border: 2px solid blue;
-    background-color: grey;
-    z-index: 999;
+    
+    z-index: 500;
+    background-color: #3c3c3c;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+
+    transition: .5s;
+    
+    
+
 }
 
 .description-collapsed{
-    width: 60px;
-    height:60px;
-    border: 2px solid transparent;
-    background-color: transparent;
-    
+    transform: translateX(-100%); 
 }
 
 
@@ -67,28 +80,58 @@ body{
 
 .collapse_description{
     position: absolute;
-
-    border: 2px solid brown;
     width: 50px;
     height: 50px;
+    background-color: #ff8c07;
+    left: 100%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: translateX(-20%);
     
-    cursor: pointer;
+    z-index: 999;
+    transition: .5s, background-color .2s;
+    
 }
 
 .collapse_mode_btn{
-    left: 100%; /* Position it outside the container */
+    right: 0;
+    left: 0;
 }
 
 .map_section__container{
-    position: relative;
+    
     border: 2px solid green;
     background-color: beige;
     height: 100%;
     width: 100%;
-    opacity: 1;
+    opacity: .2;
+
 }
 
 #map{
     height: 100%;
     width: 100%;
+}
+
+
+.route_search__container{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_bar{
+    border: none;
+    color: #ffffff;
+    outline: #ff8c07;
+    background-color: #646464;
+    width: 90%;
+    height: 2rem;
+    padding: 4px;
+    border-radius: 5px;
 }
