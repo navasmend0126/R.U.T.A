@@ -32,7 +32,8 @@ function loadMap(){
     var map = L.map('map', {
         zoomControl: false,
         tileSize: 512
-    }).setView([51.505, -0.09], 13);
+        
+    }).setView([9.030, -79.506], 15);
 
     // Add MapTiler base layer
     L.tileLayer('https://api.maptiler.com/maps/basic-v2-dark/{z}/{x}/{y}.png?key=u507Mv8aKLfST7xMEKej', {
@@ -44,4 +45,6 @@ function loadMap(){
     L.control.zoom({
         position: 'topright' // Change this to 'topleft', 'bottomleft', or 'bottomright' as needed
     }).addTo(map);
+
+    
 }
