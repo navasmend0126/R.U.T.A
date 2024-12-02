@@ -26,9 +26,22 @@
         <aside class="aside__container">
             <div id="description_aside_container" class="description__container">
                 <div class="route_search__container">
-                    <input id="user_input_route_course" placeholder="Ingrese ruta o codigo" class="search_bar"></input>
+                    <h2 class="route_search_title">BUSCAR RUTA</h2>
+                    <div class="search_bar__container">
+                        <input id="user_input_route_code" placeholder="M181, C918..." class="search_bar search_code" maxlength="4"></input>
+                        <input id="user_input_route_course" placeholder="Ingrese ruta. Ejem: CALIDONIA" class="search_bar search_route" readonly></input>
+                    </div>
                 </div>
-                <div class="routes_options__container"></div>
+                <div class="routes_options__container">
+                    <div class="routes_options_header__container">
+                        <H1 class="route_options_title">Coincidencias encontradas</H1>
+                    </div>
+                    <div class="routes_options_content__container">
+                        <div class="route_option-item">
+                            <h1 style="background-color: #88c75a;" class="route_code">M181</h1>
+                            <p class="route_desc">Metro Pedregal-Metro Cerro Viento (Ida)</p>                      
+                    </div>
+                </div>
             </div>
             <div id="collapse_description_btn" class="collapse_description"></div>
         </aside>
@@ -41,6 +54,7 @@
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="https://unpkg.com/leaflet-pip@1.1.0/leaflet-pip.min.js"></script>
     <script src="../static/app.js"></script>
     <!--<script src="{% static 'app.js' %}"></script> -->
 </body>
