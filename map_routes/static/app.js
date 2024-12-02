@@ -6,7 +6,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 const collapse_desc_btn = document.getElementById("collapse_description_btn");
 const description_aside_container = document.getElementById("description_aside_container");
+const route_input_text = document.getElementById('user_input_route_code');
 
+
+let first_character_of_route_search_bar = false;
 let description_is_collapsed = false;
 
 
@@ -24,6 +27,38 @@ collapse_desc_btn.addEventListener("click", function(e){
         description_is_collapsed = false;
     }
 })
+
+
+route_input_text.addEventListener("input", function(e){
+
+    
+    let user_input_text = route_input_text.value;
+    console.log("Input event: " + e.inputType);
+    console.log(user_input_text);
+    route_input_text.value = user_input_text.toUpperCase();
+
+    if(route_input_text.value.length > 0 && first_character_of_route_search_bar === false){
+        if(user_input_text[0].match(/[a-z]/i)){
+            console.log("Correct format");
+            first_character_of_route_search_bar = true;
+            route_input_text.value += "-";
+            console.log(first_character_of_route_search_bar);
+            
+            
+        }
+        else{
+            alert("Incorrect format");
+            route_input_text.value = '';
+        }
+    }else if(route_input_text.value.length === 0 && first_character_of_route_search_bar === true){
+        first_character_of_route_search_bar = false;
+
+    }else if(route_input_text.value.length > 0 && first_character_of_route_search_bar === true){
+        
+    }
+    
+});
+
 
 
 
