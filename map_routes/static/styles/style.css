@@ -13,12 +13,13 @@ body{
 }
 
 .nav__container{
-    height: 10vh;
+    height: 7vh;
     background-color: #3c3c3c;
 }
 
 .list__container{
     display: flex;
+    height: 100%;
     padding: 20px;
     justify-content: space-evenly;
     
@@ -26,12 +27,16 @@ body{
 }
 
 .list__container li{
+    font-size: 1.1rem;
     text-decoration: none;
     list-style-type: none;
     cursor: pointer;
     border-bottom: 2px solid transparent;
     transition: .2s;
     color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .list__container li:hover{
@@ -40,22 +45,25 @@ body{
 
 .main__container{
    
-    height: 90vh;
+    height: 93vh;
     display: flex;
 }
 
 .aside__container{
     position: absolute;
     height: 85%;
-    max-width: 20rem;
+    max-width: 30rem;
     display: flex;
     bottom: 15px;
     left: 15px;
 }
 
 .description__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
-    width: 20rem;
+    width: 30rem;
     height: 100%;
     
     z-index: 500;
@@ -100,11 +108,10 @@ body{
 
 .map_section__container{
     
-    border: 2px solid green;
-    background-color: beige;
+    background-color: #202020;
     height: 100%;
     width: 100%;
-    opacity: .2;
+    opacity: 1;
 
 }
 
@@ -118,20 +125,113 @@ body{
     display: flex;
     flex-direction: column;
     
-    margin-top: 20px;
+    
     padding: 10px;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
+.route_search_title{
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.search_bar__container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+
+
 .search_bar{
+    text-align: center;
     border: none;
     color: #ffffff;
     outline: #ff8c07;
     background-color: #646464;
-    width: 90%;
     height: 2rem;
     padding: 4px;
+    padding-left: 10px;
     border-radius: 5px;
 }
+
+.search_code{
+    width: 8rem;
+}
+
+.search_route{
+    width: 16.5rem;
+    text-align: left;
+}
+
+.routes_options__container{
+    max-height: 35rem;
+    margin-top: 25px;
+    width: 90%;
+    overflow-y: scroll;
+    
+
+}
+
+.routes_options_header__container{
+    padding: 10px;
+    background-color: #838383;
+}
+
+.routes_options_content__container{
+    background-color: #222222;
+}
+
+.route_options_title{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.route_option-item{
+    padding: 10px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid #5c5c5c;
+    cursor: pointer;
+    transition: .1s;
+
+}
+
+.route_option-item:hover{
+    background-color: #464646;
+}
+
+.route_code{
+    padding: 5px;
+    
+}
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #3b3b3b #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    border: none
+  }
