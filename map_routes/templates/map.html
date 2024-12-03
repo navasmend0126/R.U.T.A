@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--{% load static %}-->
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map with Routing</title>
-    <link rel="stylesheet" href="../static/styles/style.css">
+    <link rel="stylesheet" href="{% static 'styles/style.css'%}">
     <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');</style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
@@ -36,14 +36,9 @@
                     <div class="routes_options_header__container">
                         <H1 class="route_options_title">Coincidencias encontradas</H1>
                     </div>
-                    <div class="route_option_items__container">
+                    <div id="route_options_item__container" class="route_option_items__container">
                         <div class="routes_options_content__container">
-                            
-                            <!--<div class="route_option-item">
-                                <h1 style="background-color: #88c75a;" class="route_code">E566</h1>
-                                <p class="route_desc">Metro Pedregal-Metro Cerro Viento (Ida)</p>  
-                            </div>-->
-                           
+                                              
                         </div>
                     </div>
                 </div>
@@ -60,7 +55,6 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
     <script src="https://unpkg.com/leaflet-pip@1.1.0/leaflet-pip.min.js"></script>
-    <script src="../static/app.js"></script>
-    <!--<script src="{% static 'app.js' %}"></script> -->
+    <script src="{% static 'app.js' %}"></script>
 </body>
 </html>

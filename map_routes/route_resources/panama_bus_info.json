@@ -1,7 +1,52 @@
 {
     "E566": {
-        "type": "Trun",
-        "route": "Metro Pedregal-Metro Cerro Viento (Ida)",
+        "type": "type E566",
+        "route": "ROUTE FOR E566",
+        "color": "#88c75a"
+    },
+    "E567": {
+        "type": "type E567",
+        "route": "ROUTE FOR E567",
+        "color": "#88c75a"
+    },
+    "E568": {
+        "type": "type E568",
+        "route": "ROUTE FOR E568",
+        "color": "#88c75a"
+    },
+    "E569": {
+        "type": "type E569",
+        "route": "ROUTE FOR E569",
+        "color": "#88c75a"
+    },
+    "E570": {
+        "type": "type E570",
+        "route": "ROUTE FOR E570",
+        "color": "#88c75a"
+    },
+    "E571": {
+        "type": "type E571",
+        "route": "ROUTE FOR E571",
+        "color": "#88c75a"
+    },
+    "E572": {
+        "type": "type E572",
+        "route": "ROUTE FOR E572",
+        "color": "#88c75a"
+    },
+    "E573": {
+        "type": "type E573",
+        "route": "ROUTE FOR E573",
+        "color": "#88c75a"
+    },
+    "E574": {
+        "type": "type E574",
+        "route": "ROUTE FOR E574",
+        "color": "#88c75a"
+    },
+    "E575": {
+        "type": "type E575",
+        "route": "ROUTE FOR E575",
         "color": "#88c75a"
     }
 }
