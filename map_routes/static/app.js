@@ -1,16 +1,15 @@
-document.addEventListener("DOMContentLoaded", (event) => {
-    loadMap();
-  });
-  
-
-
 const collapse_desc_btn = document.getElementById("collapse_description_btn");
 const description_aside_container = document.getElementById("description_aside_container");
 const route_input_text = document.getElementById('user_input_route_code');
-
+const route_options_content_container = document.getElementById("route_options_item__container");
 
 let first_character_of_route_search_bar = false;
 let description_is_collapsed = false;
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    loadMap();
+    create_route_info_divs("");
+  });
 
 
 collapse_desc_btn.addEventListener("click", function(e){
@@ -41,7 +40,6 @@ route_input_text.addEventListener("input", function(e){
         if(user_input_text[0].match(/[a-z]/i)){
             console.log("Correct format");
             first_character_of_route_search_bar = true;
-            route_input_text.value += "-";
             console.log(first_character_of_route_search_bar);
             
             
@@ -49,14 +47,15 @@ route_input_text.addEventListener("input", function(e){
         else{
             alert("Incorrect format");
             route_input_text.value = '';
+            return
         }
     }else if(route_input_text.value.length === 0 && first_character_of_route_search_bar === true){
         first_character_of_route_search_bar = false;
 
     }else if(route_input_text.value.length > 0 && first_character_of_route_search_bar === true){
-        
     }
-    
+
+    create_route_info_divs(route_input_text.value);
 });
 
 
@@ -82,4 +81,57 @@ function loadMap(){
     }).addTo(map);
 
     
+}
+
+
+async function fetch_routes(query_info) {
+    delete_route_info_divs();
+    let query_data = new URLSearchParams();
+    query_data.append("route_code", query_info);
+
+    try {
+        let response = await fetch(`http://127.0.0.1:8000/map_routes/search_route/?${query_data.toString()}`, {
+            method: "GET",
+        });
+        let data = await response.json();
+        console.log("Datos de ruta: ", data.route_data);
+        return data.route_data;
+    } catch (error) {
+        console.error("Ha pasado un error...", error);
+        return null; // Return null or handle the error as needed
+    }
+}
+
+async function create_route_info_divs(query_info){
+    let json_routes = await fetch_routes(query_info);
+    console.log("Entramos a la funcion de creacion de divs");
+    console.log("Json_routes: ", json_routes);
+    for(let route_code in json_routes){
+        let route_type = json_routes[route_code]["type"];
+        let route_info = json_routes[route_code]["route"];
+        let route_color = json_routes[route_code]["color"];
+
+        let div = document.createElement('div');
+        div.setAttribute('class', 'route_option-item');
+
+        let h1 = document.createElement('h1');
+        h1.setAttribute('class', 'route_code');
+        h1.style.backgroundColor = route_color;
+        h1.textContent = route_code;
+
+        let p = document.createElement('p');
+        p.setAttribute('class', 'route_desc');
+        p.textContent = route_info;
+
+        div.appendChild(h1);
+        div.appendChild(p);
+
+        route_options_content_container.appendChild(div);
+    }
+}
+
+function delete_route_info_divs(){
+    while (route_options_content_container.firstChild) {
+        route_options_content_container.removeChild(route_options_content_container.firstChild);
+    }
 }
