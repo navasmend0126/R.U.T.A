@@ -1,52 +1,1304 @@
 {
-    "E566": {
-        "type": "type E566",
-        "route": "ROUTE FOR E566",
+    "S420": {
+        "title": "S420",
+        "type": "corredor",
+        "route": "Corredor Sur-Albrook (Ida)",
+        "color": "#2a5caa"
+    },
+    "S420_1": {
+        "title": "S420",
+        "type": "corredor",
+        "route": "Corredor Sur-Felipillo-Pacora (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S421": {
+        "title": "S421",
+        "type": "corredor",
+        "route": "Corredor Sur-Felipillo-Pacora (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S422": {
+        "title": "S422",
+        "type": "corredor",
+        "route": "Corredor Sur-Felipillo-Pacora (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S432": {
+        "title": "S432",
+        "type": "corredor",
+        "route": "Corredor Sur-ZP 5 de Mayo (Ida)",
+        "color": "#2a5caa"
+    },
+    "S440": {
+        "title": "S440",
+        "type": "corredor",
+        "route": "Corredor Sur-ZP 5 de Mayo-Albrook (Ida)",
+        "color": "#2a5caa"
+    },
+    "S441": {
+        "title": "S441",
+        "type": "corredor",
+        "route": "Corredor Sur-Metro Nuevo Tocumen (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S442": {
+        "title": "S442",
+        "type": "corredor",
+        "route": "Corredor Sur-ZP 5 de Mayo (Ida)",
+        "color": "#2a5caa"
+    },
+    "S442_1": {
+        "title": "S442",
+        "type": "corredor",
+        "route": "Corredor Sur-Metro Nuevo Tocumen (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S447": {
+        "title": "S447",
+        "type": "corredor",
+        "route": "Metro Nuevo Tocumen-Corredor Sur-Costa del Este (Ida)",
+        "color": "#2a5caa"
+    },
+    "S480": {
+        "title": "S480",
+        "type": "corredor",
+        "route": "Corredor Sur-Albrook (Ida)",
+        "color": "#2a5caa"
+    },
+    "S480_1": {
+        "title": "S480",
+        "type": "corredor",
+        "route": "Corredor Sur-ZP La Siesta (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S481": {
+        "title": "S481",
+        "type": "corredor",
+        "route": "Corredor Sur-ZP La Siesta (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S482": {
+        "title": "S482",
+        "type": "corredor",
+        "route": "Corredor Sur-ZP 5 de Mayo (Ida)",
+        "color": "#2a5caa"
+    },
+    "S482_1": {
+        "title": "S482",
+        "type": "corredor",
+        "route": "Corredor Sur-ZP La Siesta (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S487": {
+        "title": "S487",
+        "type": "corredor",
+        "route": "ZP La Siesta-Corredor Sur-Costa del Este (Ida)",
+        "color": "#2a5caa"
+    },
+    "S510": {
+        "title": "S510",
+        "type": "corredor",
+        "route": "Corredor Sur-Albrook (Ida)",
+        "color": "#2a5caa"
+    },
+    "S510_1": {
+        "title": "S510",
+        "type": "corredor",
+        "route": "Corredor Sur-Belen (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S511": {
+        "title": "S511",
+        "type": "corredor",
+        "route": "Corredor Sur-Belen (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S512": {
+        "title": "S512",
+        "type": "corredor",
+        "route": "Corredor Sur-Belen (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S520": {
+        "title": "S520",
+        "type": "corredor",
+        "route": "Corredor Sur-Albrook (Ida)",
+        "color": "#2a5caa"
+    },
+    "S530": {
+        "title": "S530",
+        "type": "corredor",
+        "route": "Llano Bonito-Corredor Sur-ZP 5 de Mayo- Albrook (Ida)",
+        "color": "#2a5caa"
+    },
+    "S530_1": {
+        "title": "S530",
+        "type": "corredor",
+        "route": "Corredor Sur-Llano Bonito-Metro Pedregal (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S542": {
+        "title": "S542",
+        "type": "corredor",
+        "route": "Corredor Sur-ZP 5 de Mayo (Ida)",
+        "color": "#2a5caa"
+    },
+    "S542_1": {
+        "title": "S542",
+        "type": "corredor",
+        "route": "Corredor Sur-ZP Interna Pedregal (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S549": {
+        "title": "S549",
+        "type": "corredor",
+        "route": "La Pagoda-Corredor Sur-ZP 5 de Mayo (Ida)",
+        "color": "#2a5caa"
+    },
+    "S549_1": {
+        "title": "S549",
+        "type": "corredor",
+        "route": "Corredor Sur-La Pagoda-ZP Interna Pedregal (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S562": {
+        "title": "S562",
+        "type": "corredor",
+        "route": "Corredor Sur-Don Bosco (Retorno)",
+        "color": "#2a5caa"
+    },
+    "S569": {
+        "title": "S569",
+        "type": "corredor",
+        "route": "Corredor Sur-ZP 5 de Mayo (Ida)",
+        "color": "#2a5caa"
+    },
+    "S572": {
+        "title": "S572",
+        "type": "corredor",
+        "route": "Versalles-Corredor Sur-ZP 5 de Mayo (Ida)",
+        "color": "#2a5caa"
+    },
+    "S662": {
+        "title": "S662",
+        "type": "corredor",
+        "route": "ZP 5 de Mayo-Corredor Sur-Costa del Este-Santa Maria (Ida)",
+        "color": "#2a5caa"
+    },
+    "T020": {
+        "title": "T020",
+        "type": "corredor",
+        "route": "Chilibre Interno-Autopista-Albrook (Ida)",
+        "color": "#9b52a1"
+    },
+    "T021": {
+        "title": "T021",
+        "type": "corredor",
+        "route": "Autopista-Chilibre Interno-Chilibre (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T022": {
+        "title": "T022",
+        "type": "corredor",
+        "route": "Autopista-ZP 5 de Mayo (Ida)",
+        "color": "#9b52a1"
+    },
+    "T022_1": {
+        "title": "T022",
+        "type": "corredor",
+        "route": "Autopista-Chilibre (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T033": {
+        "title": "T033",
+        "type": "corredor",
+        "route": "Autopista-Via Centenario-Especializada-Chilibre Interno-ZP Chilibre (Ida)",
+        "color": "#9b52a1"
+    },
+    "T040": {
+        "title": "T040",
+        "type": "corredor",
+        "route": "ZP Chilibre-Autopista-Albrook (Ida)",
+        "color": "#9b52a1"
+    },
+    "T040_1": {
+        "title": "T040",
+        "type": "corredor",
+        "route": "Autopista-ZP Chilibre-Alcalde Diaz (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T060": {
+        "title": "T060",
+        "type": "corredor",
+        "route": "Corredor Norte-Albrook (Ida)",
+        "color": "#9b52a1"
+    },
+    "T060_1": {
+        "title": "T060",
+        "type": "corredor",
+        "route": "Corredor Norte-Ciudad Bolivar (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T080": {
+        "title": "T080",
+        "type": "corredor",
+        "route": "ZP Chilibre-Autopista-Albrook (Ida)",
+        "color": "#9b52a1"
+    },
+    "T080_1": {
+        "title": "T080",
+        "type": "corredor",
+        "route": "Autopista-ZP Chilibre-La Cabima (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T100": {
+        "title": "T100",
+        "type": "corredor",
+        "route": "Corredor Norte-Albrook (Ida)",
+        "color": "#9b52a1"
+    },
+    "T100_1": {
+        "title": "T100",
+        "type": "corredor",
+        "route": "Corredor Norte-Santa Librada (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T120": {
+        "title": "T120",
+        "type": "corredor",
+        "route": "Corredor Norte-Albrook (Ida)",
+        "color": "#9b52a1"
+    },
+    "T120_1": {
+        "title": "T120",
+        "type": "corredor",
+        "route": "Corredor Norte-Mano de Piedra (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T140": {
+        "title": "T140",
+        "type": "corredor",
+        "route": "Corredor Norte-Albrook (Ida)",
+        "color": "#9b52a1"
+    },
+    "T140_1": {
+        "title": "T140",
+        "type": "corredor",
+        "route": "Corredor Norte-Torrijos Carter (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T149": {
+        "title": "T149",
+        "type": "corredor",
+        "route": "San Isidro-Corredor Norte-Albrook (Ida)",
+        "color": "#9b52a1"
+    },
+    "T149_1": {
+        "title": "T149",
+        "type": "corredor",
+        "route": "Corredor Norte-San Isidro-Torrijos Carter (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T160": {
+        "title": "T160",
+        "type": "corredor",
+        "route": "Corredor Norte-Albrook (Ida)",
+        "color": "#9b52a1"
+    },
+    "T160_1": {
+        "title": "T160",
+        "type": "corredor",
+        "route": "Corredor Norte-El Valle-Metro Villa Zaita (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T176": {
+        "title": "T176",
+        "type": "corredor",
+        "route": "Metro Nuevo Tocumen-Corredor Norte-Metro San Isidro (Ida)",
+        "color": "#9b52a1"
+    },
+    "T443": {
+        "title": "T443",
+        "type": "corredor",
+        "route": "Corredor Norte-El Dorado-CSS Especializada (Ida)",
+        "color": "#9b52a1"
+    },
+    "T443_1": {
+        "title": "T443",
+        "type": "corredor",
+        "route": "El Dorado-Corredor Norte-Metro Nuevo Tocumen (Retorno)",
+        "color": "#9b52a1"
+    },
+    "T582": {
+        "title": "T582",
+        "type": "corredor",
+        "route": "San Antonio-Corredor Norte-ZP 5 de Mayo (Ida)",
+        "color": "#9b52a1"
+    },
+    "T582_1": {
+        "title": "T582",
+        "type": "corredor",
+        "route": "Corredor Norte-San Antonio (Retorno)",
+        "color": "#9b52a1"
+    },
+    "F030": {
+        "title": "F030",
+        "type": "troncal",
+        "route": "Forestal-Albrook (Ida)",
+        "color": "#22bcac"
+    },
+    "F030_1": {
+        "title": "F030",
+        "type": "troncal",
+        "route": "Forestal-Chilibre Interno - ZP Chilibre (Retorno)",
+        "color": "#22bcac"
+    },
+    "I672": {
+        "title": "I672",
+        "type": "troncal",
+        "route": "ZP 5 de Mayo-Via Israel-Panama Viejo-Metro Cincuentenario (Ida)",
+        "color": "#f0595b"
+    },
+    "K010": {
+        "title": "K010",
+        "type": "troncal",
+        "route": "Alto De Los Lagos-Calle 13 (Ida)",
+        "color": "#1fb0e6"
+    },
+    "K042": {
+        "title": "K042",
+        "type": "troncal",
+        "route": "Transistmica-ZP 5 de Mayo (Ida)",
+        "color": "#1fb0e6"
+    },
+    "K042_1": {
+        "title": "K042",
+        "type": "troncal",
+        "route": "Transistmica-Alcalde Diaz (Retorno)",
+        "color": "#1fb0e6"
+    },
+    "K100": {
+        "title": "K100",
+        "type": "troncal",
+        "route": "Transistmica-Calidonia-Albrook (Ida)",
+        "color": "#1fb0e6"
+    },
+    "K100_1": {
+        "title": "K100",
+        "type": "troncal",
+        "route": "Transistmica-Santa Librada (Retorno)",
+        "color": "#1fb0e6"
+    },
+    "K120": {
+        "title": "K120",
+        "type": "troncal",
+        "route": "Transistmica-Calidonia-Albrook (Ida)",
+        "color": "#1fb0e6"
+    },
+    "K120_1": {
+        "title": "K120",
+        "type": "troncal",
+        "route": "Transistmica-Mano De Piedra (Retorno)",
+        "color": "#1fb0e6"
+    },
+    "K140": {
+        "title": "K140",
+        "type": "troncal",
+        "route": "Transistmica-Calidonia-Albrook (Ida)",
+        "color": "#1fb0e6"
+    },
+    "K140_1": {
+        "title": "K140",
+        "type": "troncal",
+        "route": "Transistmica-Torrijos Carter (Retorno)",
+        "color": "#1fb0e6"
+    },
+    "K160": {
+        "title": "K160",
+        "type": "troncal",
+        "route": "Transistmica-Calidonia-Albrook (Ida)",
+        "color": "#1fb0e6"
+    },
+    "K160_1": {
+        "title": "K160",
+        "type": "troncal",
+        "route": "Transistmica-El Valle (Retorno)",
+        "color": "#1fb0e6"
+    },
+    "K181": {
+        "title": "K181",
+        "type": "troncal",
+        "route": "Transistmica-Directo-Albrook (Ida)",
+        "color": "#1fb0e6"
+    },
+    "K181_1": {
+        "title": "K181",
+        "type": "troncal",
+        "route": "Directo-Transistmica-Metro Los Andes (Retorno)",
+        "color": "#1fb0e6"
+    },
+    "K189": {
+        "title": "K189",
+        "type": "troncal",
+        "route": "Metro Los Andes-Transistmica-Calidonia-Albrook (Ida)",
+        "color": "#1fb0e6"
+    },
+    "K189_1": {
+        "title": "K189",
+        "type": "troncal",
+        "route": "Albrook-Transistmica-Metro Los Andes (Retorno)",
+        "color": "#1fb0e6"
+    },
+    "K530": {
+        "title": "K530",
+        "type": "troncal",
+        "route": "Transistmica-Metro Cincuentenario-Calidonia-Albrook (Ida)",
+        "color": "#1fb0e6"
+    },
+    "K530_1": {
+        "title": "K530",
+        "type": "troncal",
+        "route": "Transistmica-Metro Cincuentenario-Metro Pedregal (Retorno)",
+        "color": "#1fb0e6"
+    },
+    "M062": {
+        "title": "M062",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-ZP 5 de Mayo (Ida)",
         "color": "#88c75a"
     },
-    "E567": {
-        "type": "type E567",
-        "route": "ROUTE FOR E567",
+    "M062_1": {
+        "title": "M062",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Ciudad Bolivar (Retorno)",
         "color": "#88c75a"
+    },
+    "M100": {
+        "title": "M100",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Calidonia-Albrook (Ida)",
+        "color": "#88c75a"
+    },
+    "M100_1": {
+        "title": "M100",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Santa Librada (Retorno)",
+        "color": "#88c75a"
+    },
+    "M120": {
+        "title": "M120",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Calidonia-Albrook (Ida)",
+        "color": "#88c75a"
+    },
+    "M120_1": {
+        "title": "M120",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Mano de Piedra (Retorno)",
+        "color": "#88c75a"
+    },
+    "M140": {
+        "title": "M140",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Calidonia-Albrook (Ida)",
+        "color": "#88c75a"
+    },
+    "M140_1": {
+        "title": "M140",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Torrijos Carter (Retorno)",
+        "color": "#88c75a"
+    },
+    "M181": {
+        "title": "M181",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Directo-Albrook (Ida)",
+        "color": "#88c75a"
+    },
+    "M181_1": {
+        "title": "M181",
+        "type": "troncal",
+        "route": "Directo-Av. Ricardo J. Alfaro-Metro Los Andes (Retorno)",
+        "color": "#88c75a"
+    },
+    "M182": {
+        "title": "M182",
+        "type": "troncal",
+        "route": "Metro Los Andes-Av. Ricardo J. Alfaro-ZP 5 de Mayo (Ida)",
+        "color": "#88c75a"
+    },
+    "M182_1": {
+        "title": "M182",
+        "type": "troncal",
+        "route": "ZP 5 de Mayo-Av. Ricardo J. Alfaro-Metro Los Andes (Retorno)",
+        "color": "#88c75a"
+    },
+    "M201": {
+        "title": "M201",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Directo-Albrook (Ida)",
+        "color": "#88c75a"
+    },
+    "M201_1": {
+        "title": "M201",
+        "type": "troncal",
+        "route": "Directo-M201 Av. Ricardo J. Alfaro-Veranillo (Retorno)",
+        "color": "#88c75a"
+    },
+    "M481": {
+        "title": "M481",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Juan Pablo II-Albrook (Ida)",
+        "color": "#88c75a"
+    },
+    "M481_1": {
+        "title": "M481",
+        "type": "troncal",
+        "route": "Juan Pablo II-Av. Ricardo J. Alfaro-ZP La Siesta (Retorno)",
+        "color": "#88c75a"
+    },
+    "M502": {
+        "title": "M502",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-ZP 5 de Mayo (Ida)",
+        "color": "#88c75a"
+    },
+    "M502_1": {
+        "title": "M502",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Ma�anitas (Retorno)",
+        "color": "#88c75a"
+    },
+    "M530": {
+        "title": "M530",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Calidonia-Albrook (Ida)",
+        "color": "#88c75a"
+    },
+    "M530_1": {
+        "title": "M530",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-M Cincuentenario-Metro Pedregal (Retorno)",
+        "color": "#88c75a"
+    },
+    "M671": {
+        "title": "M671",
+        "type": "troncal",
+        "route": "Albrook-Juan Pablo II-Av. Ricardo J. Alfaro-Metro Cincuentenario (Ida)",
+        "color": "#88c75a"
+    },
+    "M675": {
+        "title": "M675",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Parque Urraca-Paitilla (Ida)",
+        "color": "#88c75a"
+    },
+    "M675_1": {
+        "title": "M675",
+        "type": "troncal",
+        "route": "Av. Ricardo J. Alfaro-Metro Cincuentenario (Retorno)",
+        "color": "#88c75a"
+    },
+    "V180": {
+        "title": "V180",
+        "type": "troncal",
+        "route": "Via Espa�a-Calidonia-Albrook (Ida)",
+        "color": "#fcb94b"
+    },
+    "V180_1": {
+        "title": "V180",
+        "type": "troncal",
+        "route": "Via Espa�a-Metro Los Andes (Retorno)",
+        "color": "#fcb94b"
+    },
+    "V201": {
+        "title": "V201",
+        "type": "troncal",
+        "route": "Via Espa�a-Albrook-Directo (Ida)",
+        "color": "#fcb94b"
+    },
+    "V201_1": {
+        "title": "V201",
+        "type": "troncal",
+        "route": "Directo-Via Espa�a-Veranillo (Retorno)",
+        "color": "#fcb94b"
+    },
+    "V442": {
+        "title": "V442",
+        "type": "troncal",
+        "route": "Via Espa�a-ZP 5 de Mayo (Ida)",
+        "color": "#fcb94b"
+    },
+    "V442_1": {
+        "title": "V442",
+        "type": "troncal",
+        "route": "Via Espa�a-Metro Nuevo Tocumen (Retorno)",
+        "color": "#fcb94b"
+    },
+    "V502": {
+        "title": "V502",
+        "type": "troncal",
+        "route": "Via Espa�a-ZP 5 de Mayo (Ida)",
+        "color": "#fcb94b"
+    },
+    "V502_1": {
+        "title": "V502",
+        "type": "troncal",
+        "route": "Via Espa�a-Ma�anitas (Retorno)",
+        "color": "#fcb94b"
+    },
+    "V531": {
+        "title": "V531",
+        "type": "troncal",
+        "route": "Via Espa�a-Directo-Albrook (Ida)",
+        "color": "#fcb94b"
+    },
+    "V531_1": {
+        "title": "V531",
+        "type": "troncal",
+        "route": "Via Espa�a-Directo-Metro Pedregal (Retorno)",
+        "color": "#fcb94b"
+    },
+    "V532": {
+        "title": "V532",
+        "type": "troncal",
+        "route": "Metro Pedregal -Via Espa�a-ZP 5 de Mayo (Ida)",
+        "color": "#fcb94b"
+    },
+    "V532_1": {
+        "title": "V532",
+        "type": "troncal",
+        "route": "ZP 5 de Mayo-Via Espa�a-Metro Pedregal (Retorno)",
+        "color": "#fcb94b"
+    },
+    "V539": {
+        "title": "V539",
+        "type": "troncal",
+        "route": "Metro Pedregal-Via Espa�a-Calidonia-Albrook (Ida)",
+        "color": "#fcb94b"
+    },
+    "V539_1": {
+        "title": "V539",
+        "type": "troncal",
+        "route": "Albrook Via Espa�a-Metro Pedregal (Retorno)",
+        "color": "#fcb94b"
+    },
+    "V560": {
+        "title": "V560",
+        "type": "troncal",
+        "route": "Via Espa�a-Calidonia-Albrook (Ida)",
+        "color": "#fcb94b"
+    },
+    "V560_1": {
+        "title": "V560",
+        "type": "troncal",
+        "route": "Via Espa�a-Don Bosco (Retorno)",
+        "color": "#fcb94b"
+    },
+    "C640": {
+        "title": "C640",
+        "type": "complementaria",
+        "route": "Albrook-Cinta Costera-Panama Viejo-El Balboa (Ida)",
+        "color": "#87838a"
+    },
+    "C641": {
+        "title": "C641",
+        "type": "complementaria",
+        "route": "Albrook-Directo Cincuentenario-Panama Viejo-El Balboa (Ida)",
+        "color": "#87838a"
+    },
+    "C642": {
+        "title": "C642",
+        "type": "complementaria",
+        "route": "Panama Viejo-Av.Balboa-ZP 5 de Mayo (Ida)",
+        "color": "#87838a"
+    },
+    "C642_1": {
+        "title": "C642",
+        "type": "complementaria",
+        "route": "Cinta Costera-Panama Viejo-El Balboa (Retorno)",
+        "color": "#87838a"
+    },
+    "C790": {
+        "title": "C790",
+        "type": "complementaria",
+        "route": "Albrook-Paraiso-Parque Summit-Gamboa (Ida)",
+        "color": "#87838a"
+    },
+    "C800": {
+        "title": "C800",
+        "type": "complementaria",
+        "route": "Albrook-Parque Summit (Ida)",
+        "color": "#87838a"
+    },
+    "C810": {
+        "title": "C810",
+        "type": "complementaria",
+        "route": "Albrook (Ida)",
+        "color": "#87838a"
+    },
+    "C810_1": {
+        "title": "C810",
+        "type": "complementaria",
+        "route": "Miraflores (Retorno)",
+        "color": "#87838a"
+    },
+    "C820": {
+        "title": "C820",
+        "type": "complementaria",
+        "route": "Albrook (Ida)",
+        "color": "#87838a"
+    },
+    "C820_1": {
+        "title": "C820",
+        "type": "complementaria",
+        "route": "C Del Saber (Retorno)",
+        "color": "#87838a"
+    },
+    "C842": {
+        "title": "C842",
+        "type": "complementaria",
+        "route": "ZP 5 de Mayo-Teatro Balboa (Ida)",
+        "color": "#87838a"
+    },
+    "C850": {
+        "title": "C850",
+        "type": "complementaria",
+        "route": "Metro Albrook-Amador (Ida)",
+        "color": "#87838a"
+    },
+    "C862": {
+        "title": "C862",
+        "type": "complementaria",
+        "route": "ZP 5 de Mayo-Chorrillo (Ida)",
+        "color": "#87838a"
+    },
+    "C888": {
+        "title": "C888",
+        "type": "complementaria",
+        "route": "Metro I Del Carmen-U De Panama-El Cangrejo (Ida)",
+        "color": "#87838a"
+    },
+    "C898": {
+        "title": "C898",
+        "type": "complementaria",
+        "route": "Paitilla-Plaza Edison-Via Brasil (Ida)",
+        "color": "#87838a"
+    },
+    "C908": {
+        "title": "C908",
+        "type": "complementaria",
+        "route": "CC El Dorado-Bethania-Av.La Paz-Altaplaza (Ida)",
+        "color": "#87838a"
+    },
+    "C918": {
+        "title": "C918",
+        "type": "complementaria",
+        "route": "ZP 5 de Mayo-Av. Ricardo J. Alfaro-Av.La Paz-Transistmica (Ida)",
+        "color": "#87838a"
+    },
+    "C928": {
+        "title": "C928",
+        "type": "complementaria",
+        "route": "ZP 5 de Mayo-Transistmica-12 de Oct- Via Espa�a (Ida)",
+        "color": "#87838a"
+    },
+    "C938": {
+        "title": "C938",
+        "type": "complementaria",
+        "route": "ZP 5 de Mayo-Via Espa�a-Ernesto T Lefevre-Av.Balboa (Ida)",
+        "color": "#87838a"
+    },
+    "C941": {
+        "title": "C941",
+        "type": "complementaria",
+        "route": "Albrook-Calle 50-Via Porras-Via Espa�a (Ida)",
+        "color": "#87838a"
+    },
+    "C944": {
+        "title": "C944",
+        "type": "complementaria",
+        "route": "Metro San Miguelito-Monte Oscuro-Via Porras (Ida)",
+        "color": "#87838a"
+    },
+    "C952": {
+        "title": "C952",
+        "type": "complementaria",
+        "route": "ZP 5 de Mayo-Via Israel-Multiplaza-Punta Pac�fica (Ida)",
+        "color": "#87838a"
+    },
+    "C968": {
+        "title": "C968",
+        "type": "complementaria",
+        "route": "Metro Via Argentina-Via Brasil-Punta Pacifica (Ida)",
+        "color": "#87838a"
+    },
+    "C970": {
+        "title": "C970",
+        "type": "complementaria",
+        "route": "Albrook-Ciudad de la Salud-Merca Panama (Ida)",
+        "color": "#87838a"
+    },
+    "C974": {
+        "title": "C974",
+        "type": "complementaria",
+        "route": "Gran Estacion-Ciudad de la Salud-Merca Panama (Ida)",
+        "color": "#87838a"
+    },
+    "E418": {
+        "title": "E418",
+        "type": "complementaria",
+        "route": "Metro Nuevo Tocumen-Montemadero (Ida)",
+        "color": "#a18b6b"
+    },
+    "E436": {
+        "title": "E436",
+        "type": "complementaria",
+        "route": "Metro Pedregal-Metro Cerro Viento (Ida)",
+        "color": "#a18b6b"
+    },
+    "E436_1": {
+        "title": "E436",
+        "type": "complementaria",
+        "route": "Metro Pedregal-24 de Diciembre-Felipillo (Retorno)",
+        "color": "#a18b6b"
+    },
+    "E444": {
+        "title": "E444",
+        "type": "complementaria",
+        "route": "24 de Dic-Metro Cincuentenario-Metro San Miguelito (Ida)",
+        "color": "#a18b6b"
+    },
+    "E445": {
+        "title": "E445",
+        "type": "complementaria",
+        "route": "Juan Diaz-El Balboa (Ida)",
+        "color": "#a18b6b"
+    },
+    "E445_1": {
+        "title": "E445",
+        "type": "complementaria",
+        "route": "Metro Nuevo Tocumen (Retorno)",
+        "color": "#a18b6b"
+    },
+    "E458": {
+        "title": "E458",
+        "type": "complementaria",
+        "route": "Metro 24 de Diciembre-Interna-24 de Diciembre (Ida)",
+        "color": "#a18b6b"
+    },
+    "E468": {
+        "title": "E468",
+        "type": "complementaria",
+        "route": "Metro 24 de Diciembre-Interna-Nuevo Tocumen (Ida)",
+        "color": "#a18b6b"
+    },
+    "E478": {
+        "title": "E478",
+        "type": "complementaria",
+        "route": "Metro 24 de Diciembre-Buena Vista (Ida)",
+        "color": "#a18b6b"
+    },
+    "E484": {
+        "title": "E484",
+        "type": "complementaria",
+        "route": "ZP La Siesta-Metro Cincuentenario-Metro San Miguelito (Ida)",
+        "color": "#a18b6b"
+    },
+    "E485": {
+        "title": "E485",
+        "type": "complementaria",
+        "route": "Juan Diaz-El Balboa (Ida)",
+        "color": "#a18b6b"
+    },
+    "E485_1": {
+        "title": "E485",
+        "type": "complementaria",
+        "route": "ZP La Siesta (Retorno)",
+        "color": "#a18b6b"
+    },
+    "E486": {
+        "title": "E486",
+        "type": "complementaria",
+        "route": "Metro Cerro Viento-Metro Pedregal-ZP La Siesta (Ida)",
+        "color": "#a18b6b"
+    },
+    "E488": {
+        "title": "E488",
+        "type": "complementaria",
+        "route": "Metro 24 de Diciembre (Ida)",
+        "color": "#a18b6b"
+    },
+    "E488_1": {
+        "title": "E488",
+        "type": "complementaria",
+        "route": "ZP La Siesta (Retorno)",
+        "color": "#a18b6b"
+    },
+    "E489": {
+        "title": "E489",
+        "type": "complementaria",
+        "route": "Metro Pedregal- Aeropuerto (Ida)",
+        "color": "#a18b6b"
+    },
+    "E496": {
+        "title": "E496",
+        "type": "complementaria",
+        "route": "Ma�anitas-Metro Pedregal (Ida)",
+        "color": "#a18b6b"
+    },
+    "E496_1": {
+        "title": "E496",
+        "type": "complementaria",
+        "route": "Ma�anitas-ZP La Siesta (Retorno)",
+        "color": "#a18b6b"
+    },
+    "E504": {
+        "title": "E504",
+        "type": "complementaria",
+        "route": "Ma�anitas-Metro Cincuentenario-Metro San Miguelito (Ida)",
+        "color": "#a18b6b"
+    },
+    "E506": {
+        "title": "E506",
+        "type": "complementaria",
+        "route": "Metro Cerro Viento-Ma�anitas (Ida)",
+        "color": "#a18b6b"
+    },
+    "E515": {
+        "title": "E515",
+        "type": "complementaria",
+        "route": "Belen-Las Americas-El Balboa (Ida)",
+        "color": "#a18b6b"
+    },
+    "E515_1": {
+        "title": "E515",
+        "type": "complementaria",
+        "route": "El Balboa-Las Americas-Belen (Retorno)",
+        "color": "#a18b6b"
+    },
+    "E516": {
+        "title": "E516",
+        "type": "complementaria",
+        "route": "Belen-Las Americas-Metro Pedregal (Ida)",
+        "color": "#a18b6b"
+    },
+    "E516_1": {
+        "title": "E516",
+        "type": "complementaria",
+        "route": "Metro Pedregal-Las Americas-Belen (Retorno)",
+        "color": "#a18b6b"
+    },
+    "E526": {
+        "title": "E526",
+        "type": "complementaria",
+        "route": "Metro Pedregal-La Pagoda-Metro Ma�anitas (Ida)",
+        "color": "#a18b6b"
+    },
+    "E537": {
+        "title": "E537",
+        "type": "complementaria",
+        "route": "Metro Pedregal-Llano Bonito-Costa Del Este (Ida)",
+        "color": "#a18b6b"
+    },
+    "E556": {
+        "title": "E556",
+        "type": "complementaria",
+        "route": "Metro Pedregal-San Joaquin (Ida)",
+        "color": "#a18b6b"
+    },
+    "E566": {
+        "title": "E566",
+        "type": "complementaria",
+        "route": "Metro Cerro Viento-Metro Pedregal-Don Bosco (Ida)",
+        "color": "#a18b6b"
     },
     "E568": {
-        "type": "type E568",
-        "route": "ROUTE FOR E568",
-        "color": "#88c75a"
+        "title": "E568",
+        "type": "complementaria",
+        "route": "Metro Pedregal-Don Bosco-Zona Industrial CS (Ida)",
+        "color": "#a18b6b"
     },
-    "E569": {
-        "type": "type E569",
-        "route": "ROUTE FOR E569",
-        "color": "#88c75a"
+    "E598": {
+        "title": "E598",
+        "type": "complementaria",
+        "route": "Metro Cerro Viento-Praderas De San Antonio (Ida)",
+        "color": "#a18b6b"
     },
-    "E570": {
-        "type": "type E570",
-        "route": "ROUTE FOR E570",
-        "color": "#88c75a"
+    "E606": {
+        "title": "E606",
+        "type": "complementaria",
+        "route": "Concepcion-ZP Juan Diaz�� (Ida)",
+        "color": "#a18b6b"
     },
-    "E571": {
-        "type": "type E571",
-        "route": "ROUTE FOR E571",
-        "color": "#88c75a"
+    "E606_1": {
+        "title": "E606",
+        "type": "complementaria",
+        "route": "Concepcion-Metro Pedregal (Retorno)",
+        "color": "#a18b6b"
     },
-    "E572": {
-        "type": "type E572",
-        "route": "ROUTE FOR E572",
-        "color": "#88c75a"
+    "E608": {
+        "title": "E608",
+        "type": "complementaria",
+        "route": "Concepcion-Metropark-ZP Juan Diaz (Ida)",
+        "color": "#a18b6b"
     },
-    "E573": {
-        "type": "type E573",
-        "route": "ROUTE FOR E573",
-        "color": "#88c75a"
+    "E608_1": {
+        "title": "E608",
+        "type": "complementaria",
+        "route": "Concepcion-Metropark-Metro Pedregal (Retorno)",
+        "color": "#a18b6b"
     },
-    "E574": {
-        "type": "type E574",
-        "route": "ROUTE FOR E574",
-        "color": "#88c75a"
+    "E618": {
+        "title": "E618",
+        "type": "complementaria",
+        "route": "Metro Cerro Viento-Brisas Del Golf (Ida)",
+        "color": "#a18b6b"
     },
-    "E575": {
-        "type": "type E575",
-        "route": "ROUTE FOR E575",
-        "color": "#88c75a"
+    "E628": {
+        "title": "E628",
+        "type": "complementaria",
+        "route": "Metro El Crisol-San Pedro (Ida)",
+        "color": "#a18b6b"
+    },
+    "E638": {
+        "title": "E638",
+        "type": "complementaria",
+        "route": "Metro El Crisol-El Crisol (Ida)",
+        "color": "#a18b6b"
+    },
+    "E658": {
+        "title": "E658",
+        "type": "complementaria",
+        "route": "Metro Cincuentenario-Villa Lucre (Ida)",
+        "color": "#a18b6b"
+    },
+    "E665": {
+        "title": "E665",
+        "type": "complementaria",
+        "route": "Metro Cincuentenario-Costa Del Este (Ida)",
+        "color": "#a18b6b"
+    },
+    "N025": {
+        "title": "N025",
+        "type": "complementaria",
+        "route": "Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N025_1": {
+        "title": "N025",
+        "type": "complementaria",
+        "route": "Chilibre (Retorno)",
+        "color": "#7d9976"
+    },
+    "N035": {
+        "title": "N035",
+        "type": "complementaria",
+        "route": "Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N035_1": {
+        "title": "N035",
+        "type": "complementaria",
+        "route": "Chilibre Interno (Retorno)",
+        "color": "#7d9976"
+    },
+    "N037": {
+        "title": "N037",
+        "type": "complementaria",
+        "route": "Metro Villa Zaita (Ida)",
+        "color": "#7d9976"
+    },
+    "N037_1": {
+        "title": "N037",
+        "type": "complementaria",
+        "route": "Chilibre Interno (Retorno)",
+        "color": "#7d9976"
+    },
+    "N045": {
+        "title": "N045",
+        "type": "complementaria",
+        "route": "Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N045_1": {
+        "title": "N045",
+        "type": "complementaria",
+        "route": "Alcalde Diaz (Retorno)",
+        "color": "#7d9976"
+    },
+    "N047": {
+        "title": "N047",
+        "type": "complementaria",
+        "route": "Metro Villa Zaita (Ida)",
+        "color": "#7d9976"
+    },
+    "N047_1": {
+        "title": "N047",
+        "type": "complementaria",
+        "route": "Alcalde Diaz (Retorno)",
+        "color": "#7d9976"
+    },
+    "N065": {
+        "title": "N065",
+        "type": "complementaria",
+        "route": "Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N065_1": {
+        "title": "N065",
+        "type": "complementaria",
+        "route": "Ciudad Bolivar (Retorno)",
+        "color": "#7d9976"
+    },
+    "N067": {
+        "title": "N067",
+        "type": "complementaria",
+        "route": "Metro Villa Zaita (Ida)",
+        "color": "#7d9976"
+    },
+    "N067_1": {
+        "title": "N067",
+        "type": "complementaria",
+        "route": "Ciudad Bolivar (Retorno)",
+        "color": "#7d9976"
+    },
+    "N105": {
+        "title": "N105",
+        "type": "complementaria",
+        "route": "Directo-Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N105_1": {
+        "title": "N105",
+        "type": "complementaria",
+        "route": "Directo-Santa Librada (Retorno)",
+        "color": "#7d9976"
+    },
+    "N106": {
+        "title": "N106",
+        "type": "complementaria",
+        "route": "Santa Librada-Metro San Isidro (Ida)",
+        "color": "#7d9976"
+    },
+    "N109": {
+        "title": "N109",
+        "type": "complementaria",
+        "route": "Santa Librada-Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N109_1": {
+        "title": "N109",
+        "type": "complementaria",
+        "route": "Metro Los Andes-Santa Librada (Retorno)",
+        "color": "#7d9976"
+    },
+    "N125": {
+        "title": "N125",
+        "type": "complementaria",
+        "route": "Directo-Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N125_1": {
+        "title": "N125",
+        "type": "complementaria",
+        "route": "Directo-Mano de Piedra (Retorno)",
+        "color": "#7d9976"
+    },
+    "N126": {
+        "title": "N126",
+        "type": "complementaria",
+        "route": "Metro San Isidro-Mano de Piedra (Ida)",
+        "color": "#7d9976"
+    },
+    "N129": {
+        "title": "N129",
+        "type": "complementaria",
+        "route": "Mano De Piedra-Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N129_1": {
+        "title": "N129",
+        "type": "complementaria",
+        "route": "Metro Los Andes-Mano De Piedra (Retorno)",
+        "color": "#7d9976"
+    },
+    "N145": {
+        "title": "N145",
+        "type": "complementaria",
+        "route": "Directo-Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N145_1": {
+        "title": "N145",
+        "type": "complementaria",
+        "route": "Directo-Torrijos Carter (Retorno)",
+        "color": "#7d9976"
+    },
+    "N149": {
+        "title": "N149",
+        "type": "complementaria",
+        "route": "Torrijos Carter-Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N149_1": {
+        "title": "N149",
+        "type": "complementaria",
+        "route": "Metro Los Andes-Torrijos Carter (Retorno)",
+        "color": "#7d9976"
+    },
+    "N154": {
+        "title": "N154",
+        "type": "complementaria",
+        "route": "Directo-Metro San Miguelito (Ida)",
+        "color": "#7d9976"
+    },
+    "N154_1": {
+        "title": "N154",
+        "type": "complementaria",
+        "route": "Directo-El Poderoso (Retorno)",
+        "color": "#7d9976"
+    },
+    "N156": {
+        "title": "N156",
+        "type": "complementaria",
+        "route": "Metro San Isidro-El Poderoso (Ida)",
+        "color": "#7d9976"
+    },
+    "N165": {
+        "title": "N165",
+        "type": "complementaria",
+        "route": "Metro Los Andes (Ida)",
+        "color": "#7d9976"
+    },
+    "N165_1": {
+        "title": "N165",
+        "type": "complementaria",
+        "route": "El Valle-Metro Villa Zaita (Retorno)",
+        "color": "#7d9976"
+    },
+    "N185": {
+        "title": "N185",
+        "type": "complementaria",
+        "route": "Metro Los Andes-Interna (Ida)",
+        "color": "#7d9976"
+    },
+    "N204": {
+        "title": "N204",
+        "type": "complementaria",
+        "route": "Veranillo-Gran Estacion (Ida)",
+        "color": "#7d9976"
+    },
+    "N205": {
+        "title": "N205",
+        "type": "complementaria",
+        "route": "Veranillo-El Balboa (Ida)",
+        "color": "#7d9976"
+    },
+    "N208": {
+        "title": "N208",
+        "type": "complementaria",
+        "route": "Veranillo-Metro Cincuentenario-Paraiso (Ida)",
+        "color": "#7d9976"
     }
 }
