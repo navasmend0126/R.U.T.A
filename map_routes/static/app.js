@@ -90,7 +90,7 @@ async function fetch_routes(query_info) {
     query_data.append("route_code", query_info);
 
     try {
-        let response = await fetch(`http://127.0.0.1:8000/map_routes/search_route/?${query_data.toString()}`, {
+        let response = await fetch(`http://127.0.0.1:8080/map_routes/search_route/?${query_data.toString()}`, {
             method: "GET",
         });
         let data = await response.json();
@@ -107,21 +107,23 @@ async function create_route_info_divs(query_info){
     console.log("Entramos a la funcion de creacion de divs");
     console.log("Json_routes: ", json_routes);
     for(let route_code in json_routes){
+        let route_title = json_routes[route_code]["title"];
         let route_type = json_routes[route_code]["type"];
         let route_info = json_routes[route_code]["route"];
         let route_color = json_routes[route_code]["color"];
 
         let div = document.createElement('div');
+        div.setAttribute('id', route_code);
         div.setAttribute('class', 'route_option-item');
 
         let h1 = document.createElement('h1');
         h1.setAttribute('class', 'route_code');
         h1.style.backgroundColor = route_color;
-        h1.textContent = route_code;
+        h1.textContent = route_title;
 
         let p = document.createElement('p');
         p.setAttribute('class', 'route_desc');
-        p.textContent = route_info;
+        //p.textContent = route_info;
 
         div.appendChild(h1);
         div.appendChild(p);

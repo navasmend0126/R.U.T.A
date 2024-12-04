@@ -220,10 +220,13 @@ body{
 }
 
 .route_desc{
+    width: 100%;
     margin-left: 10px;
 }
 
 .route_code{
+    text-align: center;
+    width: 4rem;
     padding: 5px;
     
 }
