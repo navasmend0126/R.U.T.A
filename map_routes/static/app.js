@@ -1,14 +1,14 @@
 const collapse_desc_btn = document.getElementById("collapse_description_btn");
 const description_aside_container = document.getElementById("description_aside_container");
-const route_input_text = document.getElementById('user_input_route_code');
+const route_input_text = document.getElementById("user_input_route_course");
+const route_code_input_text = document.getElementById('user_input_route_code');
 const route_options_content_container = document.getElementById("route_options_item__container");
 
-let first_character_of_route_search_bar = false;
 let description_is_collapsed = false;
 
 document.addEventListener("DOMContentLoaded", (event) => {
     loadMap();
-    create_route_info_divs("");
+    create_route_info_divs(["", ""]);
   });
 
 
@@ -28,34 +28,27 @@ collapse_desc_btn.addEventListener("click", function(e){
 })
 
 
+route_code_input_text.addEventListener("input", function(e){
+
+    
+    let user_input_text = route_code_input_text.value;
+    console.log("Input event: " + e.inputType);
+    console.log(user_input_text);
+    route_code_input_text.value = user_input_text.toUpperCase();
+
+    create_route_info_divs([route_code_input_text.value, route_input_text.value]);
+});
+
+
 route_input_text.addEventListener("input", function(e){
 
     
     let user_input_text = route_input_text.value;
     console.log("Input event: " + e.inputType);
     console.log(user_input_text);
-    route_input_text.value = user_input_text.toUpperCase();
+    
 
-    if(route_input_text.value.length > 0 && first_character_of_route_search_bar === false){
-        if(user_input_text[0].match(/[a-z]/i)){
-            console.log("Correct format");
-            first_character_of_route_search_bar = true;
-            console.log(first_character_of_route_search_bar);
-            
-            
-        }
-        else{
-            alert("Incorrect format");
-            route_input_text.value = '';
-            return
-        }
-    }else if(route_input_text.value.length === 0 && first_character_of_route_search_bar === true){
-        first_character_of_route_search_bar = false;
-
-    }else if(route_input_text.value.length > 0 && first_character_of_route_search_bar === true){
-    }
-
-    create_route_info_divs(route_input_text.value);
+    create_route_info_divs([route_code_input_text.value, route_input_text.value]);
 });
 
 
@@ -86,8 +79,11 @@ function loadMap(){
 
 async function fetch_routes(query_info) {
     delete_route_info_divs();
+    let query_order = ["route_code", "route_name"]
     let query_data = new URLSearchParams();
-    query_data.append("route_code", query_info);
+    for(let i = 0; i < query_order.length; i++){
+        query_data.append(query_order[i], query_info[i]);
+    }
 
     try {
         let response = await fetch(`http://127.0.0.1:8080/map_routes/search_route/?${query_data.toString()}`, {
@@ -123,7 +119,7 @@ async function create_route_info_divs(query_info){
 
         let p = document.createElement('p');
         p.setAttribute('class', 'route_desc');
-        //p.textContent = route_info;
+        p.textContent = route_info;
 
         div.appendChild(h1);
         div.appendChild(p);

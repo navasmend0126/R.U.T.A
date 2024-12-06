@@ -11,10 +11,12 @@ def search_route(request):
         routes = load_routes()
         matched_routes = {}
         query_route_code = request.GET["route_code"]
+        query_route_name = request.GET["route_name"]
         
         for route in routes:
             if query_route_code in route:
-                matched_routes[route] = routes[route]
+                if query_route_name.upper() in routes[route]["route"].upper():
+                    matched_routes[route] = routes[route]
         print(matched_routes)
         return JsonResponse({"response": 1,
                             "route_data": matched_routes}, status=200)
